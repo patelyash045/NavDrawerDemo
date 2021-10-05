@@ -5,52 +5,44 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.yash.navdrawerdemo.R
-
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
+import com.yash.navdrawerdemo.adapter.HomeAdapter
+import com.yash.navdrawerdemo.data.Song
 
 class HomeFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
+    lateinit var recyclerview : RecyclerView
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+
+        val view = inflater.inflate(R.layout.fragment_home, container, true)
+
+        recyclerview = view.findViewById(R.id.songList)
+        val songsObjects : MutableList<Song> = mutableListOf<Song>()
+
+        songsObjects.add(Song("Hello","Just the description"))
+        songsObjects.add(Song("ABCD","John Lennon"))
+        songsObjects.add(Song("Dance","The Rolling Stones"))
+        songsObjects.add(Song("Chill","The Beatles"))
+        songsObjects.add(Song("Coders Life","Just the description"))
+        songsObjects.add(Song("Adayein Bhi Hain Mohobbat","Ok Jaanu"))
+        songsObjects.add(Song("Aye Udi Udi","Sathiya"))
+        songsObjects.add(Song("Enna Sona","Random Data"))
+        songsObjects.add(Song("IT IT IT","Hello"))
+        songsObjects.add(Song("Agar Tum Mil Jao","Ok Jaanu"))
+        songsObjects.add(Song("Ban Ja Rani","Sulu"))
+        songsObjects.add(Song("Mukkabla","Street Dancers"))
+
+        recyclerview.adapter = HomeAdapter(songsObjects)
+        recyclerview.layoutManager = LinearLayoutManager(activity)
+
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment HomeFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            HomeFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
-    }
 }
