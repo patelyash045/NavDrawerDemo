@@ -14,7 +14,7 @@ import com.yash.navdrawerdemo.data.Song
 class HomeFragment : Fragment() {
 
     lateinit var recyclerview : RecyclerView
-
+    lateinit var lyrics : Array<String>
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -39,10 +39,30 @@ class HomeFragment : Fragment() {
         songsObjects.add(Song("Kaun Tujhe","M.S.Dhoni Untold Story Popular Song"))
         songsObjects.add(Song("Muqabla","Street Dancers Popular Song"))
 
+        lyrics = arrayOf(
+            getString(R.string.song_1),
+            getString(R.string.song_2),
+            getString(R.string.song_3),
+            getString(R.string.song_4),
+            getString(R.string.song_5),
+            getString(R.string.song_6),
+            getString(R.string.song_7),
+            getString(R.string.song_8),
+            getString(R.string.song_9),
+            getString(R.string.song_10),
+            getString(R.string.song_11),
+            getString(R.string.song_12)
+        )
+
         recyclerview.adapter = HomeAdapter(songsObjects)
         recyclerview.layoutManager = LinearLayoutManager(activity)
 
+        recyclerview.adapter
+
+
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
+
+
 
 }

@@ -19,6 +19,9 @@ class HomeAdapter(val songs: List<Song>) : RecyclerView.Adapter<HomeAdapter.Home
     }
 
     override fun onBindViewHolder(holder: HomeViewHolder, position: Int) {
+
+
+
         holder.txtTitle.text = songs[position].title
         holder.txtDescription.text = songs[position].description
         var color = "#CCCCCC"
