@@ -1,4 +1,4 @@
-package com.yash.navdrawerdemo
+package com.yash.navdrawerdemo.activity
 
 
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +9,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.google.android.material.navigation.NavigationView
+import com.yash.navdrawerdemo.R
 import com.yash.navdrawerdemo.fragment.*
 
 class MainActivity : AppCompatActivity() {
@@ -23,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         val navView : NavigationView = findViewById(R.id.nav_View)
 
 
-        toggle = ActionBarDrawerToggle(this,drawerLayout,R.string.open,R.string.close)
+        toggle = ActionBarDrawerToggle(this,drawerLayout, R.string.open, R.string.close)
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
 
