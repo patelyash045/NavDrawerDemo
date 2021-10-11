@@ -1,20 +1,24 @@
 package com.yash.navdrawerdemo.fragment
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.yash.navdrawerdemo.R
+import com.yash.navdrawerdemo.activity.DescriptionActivity
 import com.yash.navdrawerdemo.adapter.HomeAdapter
 import com.yash.navdrawerdemo.data.Song
 
 class HomeFragment : Fragment() {
 
     lateinit var recyclerview : RecyclerView
-    lateinit var lyrics : Array<String>
+    lateinit var lyricsArray : Array<String>
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -39,7 +43,7 @@ class HomeFragment : Fragment() {
         songsObjects.add(Song("Kaun Tujhe","M.S.Dhoni Untold Story Popular Song"))
         songsObjects.add(Song("Muqabla","Street Dancers Popular Song"))
 
-        lyrics = arrayOf(
+        lyricsArray = arrayOf(
             getString(R.string.song_1),
             getString(R.string.song_2),
             getString(R.string.song_3),
@@ -54,10 +58,47 @@ class HomeFragment : Fragment() {
             getString(R.string.song_12)
         )
 
-        recyclerview.adapter = HomeAdapter(songsObjects)
-        recyclerview.layoutManager = LinearLayoutManager(activity)
+        var adapter = HomeAdapter(songsObjects)
+        recyclerview.adapter = adapter
+        adapter.setOnItemClickListener(object : HomeAdapter.onItemClikListener{
+            override fun onItemClick(position: Int) {
 
-        recyclerview.adapter
+                //Toast.makeText(activity,"Clicked $position",Toast.LENGTH_SHORT).show()
+
+                val intent = Intent(activity,DescriptionActivity::class.java)
+                intent.putExtra("title",songsObjects[position].title)
+                intent.putExtra("description",songsObjects[position].description)
+                intent.putExtra("lyrics",lyricsArray[position])
+                startActivity(intent)
+
+            }
+
+        })
+        recyclerview.layoutManager = LinearLayoutManager(activity)
+        
+
+        //lyrics = arrayListOf<Lyrics>()
+        /*
+        recyclerview.setOnClickListener(object : HomeAdapter.onItemClikListener ,
+            View.OnClickListener{
+            override fun onItemClick(position: Int) {
+
+                val intent = Intent(activity,DescriptionActivity::class.java)
+                intent.putExtra("Title", mutableListOf<Song>()[position].title)
+                intent.putExtra("Description", mutableListOf<Song>()[position].description)
+                intent.putExtra("Lyrics",lyricsArray[position])
+
+                startActivity(intent)
+                //Toast.makeText(activity,"clicked $position",Toast.LENGTH_SHORT).show()
+            }
+
+            override fun onClick(v: View?) {
+                val intent = Intent(activity,DescriptionActivity::class.java)
+                startActivity(intent)
+            }
+        } )
+
+        */
 
 
         return inflater.inflate(R.layout.fragment_home, container, false)
