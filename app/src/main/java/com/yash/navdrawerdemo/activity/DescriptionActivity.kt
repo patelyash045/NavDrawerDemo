@@ -8,10 +8,6 @@ import com.yash.navdrawerdemo.R
 
 class DescriptionActivity : AppCompatActivity() {
 
-    //lateinit var txtTitleDes: TextView
-    //lateinit var txtDescriptionDes: TextView
-    //lateinit var txtLyrics: TextView
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,19 +26,5 @@ class DescriptionActivity : AppCompatActivity() {
         descriptionSong.text = description
         lyricsSong.text = lyrics
 
-        /*
-        txtTitleDes = findViewById(R.id.txtTitle)
-        txtDescriptionDes = findViewById(R.id.txtDescription)
-        txtLyrics = findViewById(R.id.Lyrics)
-
-        val bundle: Bundle? = intent.extras
-        val Title = bundle!!.getString("txtTitle")
-        val Description = bundle.getString("txtDescription")
-
-        val Lyrics = bundle.getString("txtLyrics")
-
-        txtTitleDes.text = Title
-        txtDescriptionDes.text = Description
-        txtLyrics.text = Lyrics  */
     }
 }
