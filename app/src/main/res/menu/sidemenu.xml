@@ -11,36 +11,36 @@
         <item
             android:id="@+id/menu_home"
             android:icon="@drawable/ic_menu_home"
-            android:title="Home" />
+            android:title="@string/home" />
         <item
             android:id="@+id/menu_message"
             android:icon="@drawable/ic_menu_message"
-            android:title="Message" />
+            android:title="@string/message" />
 
         <item
             android:id="@+id/menu_sync"
             android:icon="@drawable/ic_menu_sync"
-            android:title="Sync" />
+            android:title="@string/sync" />
         <item
             android:id="@+id/menu_trash"
             android:icon="@drawable/ic_menu_trash"
-            android:title="Trash" />
+            android:title="@string/trash" />
 
         <item
             android:id="@+id/menu_settings"
             android:icon="@drawable/ic_menu_settings"
-            android:title="Settings" />
+            android:title="@string/settings" />
     </group>
 
     <!-- Second menu -->
 
-    <item android:title="Profile">
+    <item android:title="@string/profile">
         <menu>
             <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/menu_login"
                     android:icon="@drawable/ic_menu_login"
-                    android:title="Login" />
+                    android:title="@string/login" />
 
             </group>
         </menu>
@@ -48,18 +48,18 @@
     </item>
 
     <!-- Third menu -->
-    <item android:title="Communicate">
+    <item android:title="@string/communicate">
         <menu>
 
             <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/menu_share"
                     android:icon="@drawable/ic_menu_share"
-                    android:title="Share" />
+                    android:title="@string/share" />
                 <item
                     android:id="@+id/menu_rate_us"
                     android:icon="@drawable/ic_menu_rate_us"
-                    android:title="Rate us" />
+                    android:title="@string/rate_us" />
             </group>
 
         </menu>
