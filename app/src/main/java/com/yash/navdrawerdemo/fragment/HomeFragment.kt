@@ -58,7 +58,7 @@ class HomeFragment : Fragment() {
             getString(R.string.song_12)
         )
 
-        var adapter = HomeAdapter(songsObjects)
+        val adapter = HomeAdapter(songsObjects)
         recyclerview.adapter = adapter
         adapter.setOnItemClickListener(object : HomeAdapter.onItemClikListener{
             override fun onItemClick(position: Int) {
@@ -70,7 +70,6 @@ class HomeFragment : Fragment() {
                 intent.putExtra("description",songsObjects[position].description)
                 intent.putExtra("lyrics",lyricsArray[position])
                 startActivity(intent)
-
             }
 
         })
