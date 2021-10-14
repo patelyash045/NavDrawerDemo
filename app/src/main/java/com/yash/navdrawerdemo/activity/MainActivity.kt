@@ -44,8 +44,8 @@ class MainActivity : AppCompatActivity() {
                 R.id.menu_login -> replaceFragment(LoginFragment(),it.title.toString())//Toast.makeText(applicationContext,"Clicked Login",Toast.LENGTH_SHORT).show()
                 R.id.menu_share -> Toast.makeText(applicationContext,"Clicked Share",Toast.LENGTH_SHORT).show()
                 R.id.menu_rate_us -> Toast.makeText(applicationContext,"Clicked Rate us",Toast.LENGTH_SHORT).show()
-            }
 
+            }
             true
         }
 
