@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+        replaceFragment(HomeFragment(),"Home")        // default call the the Home fragment
         navView.setNavigationItemSelectedListener {
 
             it.isChecked = true
