@@ -932,6 +932,10 @@ Na na na.. o yeh... (x2)
     <string name="textview">TextView</string>
     <string name="ironman">Ironman</string>
     <string name="hello_jarvis">Hello JARVIS</string>
+    <string name="login">Login</string>
+    <string name="settings">Settings</string>
+    <string name="message">Message</string>
+    <string name="trash">Trash</string>
 
 </resources>
 
