@@ -14,11 +14,13 @@ import com.yash.navdrawerdemo.fragment.*
 
 class MainActivity : AppCompatActivity() {
 
+
     lateinit var toggle: ActionBarDrawerToggle
     lateinit var drawerLayout : DrawerLayout
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
         drawerLayout = findViewById(R.id.drawerLayout)
         val navView : NavigationView = findViewById(R.id.nav_View)

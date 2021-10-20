@@ -7,5 +7,4 @@
     android:id="@+id/songList"
     tools:context=".fragment.HomeFragment">
 
-
 </androidx.recyclerview.widget.RecyclerView>

@@ -15,6 +15,7 @@ class HomeAdapter(val songs: List<Song>) : RecyclerView.Adapter<HomeAdapter.Home
 
     private lateinit var mListener: onItemClikListener
 
+
     interface onItemClikListener{
 
         fun onItemClick(position: Int)
