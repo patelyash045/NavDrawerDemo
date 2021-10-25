@@ -6,6 +6,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+
+
     <string name="song_1">
         Hum tere bin ab reh nahi sakte
 Tere bina kya wajood mera (x2)
@@ -25,8 +27,6 @@ Har saans pe naam tera
 Kyunki tum hi ho
 Ab tum hi ho
 Zindagi ab tum hi ho
-
-        <!--
 Chain bhi, mera dard bhi
 Meri aashiqui ab tum hi ho
 Tumhi ho… Tumhi ho...
@@ -39,7 +39,8 @@ Tujhe paake adhoora naa raha hmm.. Kyunki tum hi ho
 Ab tum hi ho
 Zindagi ab tum hi ho..
 Chain bhi, mera dard bhi
-Meri aashiqui ab tum hi ho (x2)--></string>
+Meri aashiqui ab tum hi ho (x2)
+    </string>
 
     <string name="song_2">Tuhi yeh mujhko bata de
 
@@ -65,7 +66,7 @@ Chahun main ya na
 Aakhon aakhon mein jata de
 Chahun main ya na
 
-Mere chhote-chhote khwab hain
+Mere chote chote khwab hain
 Khwabon me geet hain
 Geeto me zindagi hai
 Chahat hai, preet hai
@@ -134,63 +135,63 @@ Phir kya fikar hai
 Jeene ki wajah hi yehi hai
 
 Marna issi ke liye
-        <!--
-
-        Kehte hain:
-
-        Khuda ne iss jahaan mein
-
-        Sabhi ke liye kisi na kisi ko hai banaaya
-
-        har kisi ke liye...
 
 
-        Hmm Meharbaani jaate-jaate mujhpe kar gaya
+Kehte hain:
 
-        Guzarta saa lamha ek daaman bhar gaya
+Khuda ne iss jahaan mein
 
-        Tera nazaara mila, roshan sitaara mila
+Sabhi ke liye kisi na kisi ko hai banaaya
 
-        Taqdeer ki kashtiyon ko kinara mila
-
-
-        Sadiyon se tarse hai jaisi zindagi ke liye
-
-        Teri sohbat mein duaayein hain ussi ke liye
-
-        Tera milna hai uss rab ka ishaara
-
-        Maano mujhko banaya tere hi jaise kisi ke liye
+har kisi ke liye...
 
 
-        Kuch toh hai tujh se raabta
+Hmm Meharbaani jaate-jaate mujhpe kar gaya
 
-        Kuch toh hai tujh se raabta
+Guzarta saa lamha ek daaman bhar gaya
 
-        Kaise hum jaane hume kya pata
+Tera nazaara mila, roshan sitaara mila
 
-        Kuch toh hai tujhse raabta
-
-
-        Tu humsafar hai, phir kya fiqar hai
-
-        Jeene ki wajah hi yehi hai
-
-        Marna issi ke liye
+Taqdeer ki kashtiyon ko kinara mila
 
 
-        Kehte hain:
+Sadiyon se tarse hai jaisi zindagi ke liye
 
-        Khuda ne iss jahaan mein
+Teri sohbat mein duaayein hain ussi ke liye
 
-        Sabhi ke liye kisi na kisi ko hai banaaya
+Tera milna hai uss rab ka ishaara
 
-        Har kisi ke liye...-->
+Maano mujhko banaya tere hi jaise kisi ke liye
+
+
+Kuch toh hai tujh se raabta
+
+Kuch toh hai tujh se raabta
+
+Kaise hum jaane hume kya pata
+
+Kuch toh hai tujhse raabta
+
+
+Tu humsafar hai, phir kya fiqar hai
+
+Jeene ki wajah hi yehi hai
+
+Marna issi ke liye
+
+
+Kehte hain:
+
+Khuda ne iss jahaan mein
+
+Sabhi ke liye kisi na kisi ko hai banaaya
+
+Har kisi ke liye...
     </string>
 
     <string name="song_4">
-        Yahhin doobe din mere
-
+        Yahin doobe din mere
+        <!--
 O.. Yahin doobe din mere
 
 Yahin hote hain savere
@@ -221,48 +222,48 @@ Hai sila.. tu mere dard ka
 
 
 Mere dil ki duaayein hain..
-        <!--
-        Teri galiyan... galliyan teri, galliyan..
 
-        Mujhko bhaavein galiyan, teri galiyan
+Teri galiyan... galliyan teri, galliyan..
 
-        Teri galiyan...galiyaan teri, galliyan..
+Mujhko bhaavein galiyan, teri galiyan
 
-        Yuhin tadpaavein, galliyan teri, galliyan..
+Teri galiyan...galiyaan teri, galliyan..
 
-
-        Kaisa hai rishta tera-mera
-
-        Be-chehra phir bhi kitna gehra
-
-        Ye lamhe, lamhe ye resham se
-
-        Kho jaayein.. kho na jaayein humse
-
-        Kaafila.. waqt ka.. rok le..
-
-        Abr se juda na ho
+Yuhin tadpaavein, galliyan teri, galliyan..
 
 
-        Teri galliyan... galliyan teri galliyan..
+Kaisa hai rishta tera-mera
 
-        Mujhko bhaave galiyan teri galiyan
+Be-chehra phir bhi kitna gehra
 
-        Teri galiyan...galiyaan teri galliyan..
+Ye lamhe, lamhe ye resham se
 
-        Yuhin tadpaave galliyan teri galliyan..
+Kho jaayein.. kho na jaayein humse
+
+Kaafila.. waqt ka.. rok le..
+
+Abr se juda na ho
 
 
-        Galliyan...
+Teri galliyan... galliyan teri galliyan..
 
-        Teri galliyan..
+Mujhko bhaave galiyan teri galiyan
 
-        Tadpaavein...-->
+Teri galiyan...galiyaan teri galliyan..
+
+Yuhin tadpaave galliyan teri galliyan..
+
+
+Galliyan...
+
+Teri galliyan..
+
+Tadpaavein...-->
     </string>
 
     <string name="song_5">Yaariyan ve
 
-
+        <!--
         Yaariyan ve... Yaariyan
 
 Yaariyan ve... yaariyan ve..
@@ -290,63 +291,63 @@ Jo bhigaa de poori tarah (x2)
 
 Yaariyan ve... Yaariyan...
 
-        <!--
-        Kya huaa asar tere saath reh kar naa jaane
 
-        Ki hosh mujhe naa raha
+Kya huaa asar tere saath reh kar naa jaane
 
-        Lafz mere thhe zubaan pe aake ruke
+Ki hosh mujhe naa raha
 
-        Par ho na sake woh bayaan
+Lafz mere thhe zubaan pe aake ruke
 
-        Dhadkan tera hi naam jo le
+Par ho na sake woh bayaan
 
-        Aankhein bhi paighaam ye de
+Dhadkan tera hi naam jo le
 
-        Teri nazar ka hi ye asar hai
+Aankhein bhi paighaam ye de
 
-        Mujh pe jo huaa
+Teri nazar ka hi ye asar hai
 
-
-        Is dard-e-dil ki sifaarish
-
-        Ab kar de koi yahaan
-
-        Ki mill jaaye isey woh baarish
-
-        Jo bhiga de poori tarah (x2)
+Mujh pe jo huaa
 
 
-        Tu jo mila
+Is dard-e-dil ki sifaarish
 
-        Toh zindagi hai badli
+Ab kar de koi yahaan
 
-        Main poora naya ho gaya
+Ki mill jaaye isey woh baarish
 
-        Hai be-asar duniya ki baatein badi
-
-        Ab teri sunu main sadaa
+Jo bhiga de poori tarah (x2)
 
 
-        Milne ko tujhse, bahaane karun
+Tu jo mila
 
-        Tu muskuraaye, wajah main banun
+Toh zindagi hai badli
 
-        Roz bitaana saath mein tere, saara din mera
+Main poora naya ho gaya
+
+Hai be-asar duniya ki baatein badi
+
+Ab teri sunu main sadaa
 
 
-        Is dard-e-dil ki sifaarish
+Milne ko tujhse, bahaane karun
 
-        Ab kar de koi yahaan
+Tu muskuraaye, wajah main banun
 
-        Ki mill jaaye isey woh baarish
+Roz bitaana saath mein tere, saara din mera
 
-        Jo bhiga de poori tarah (x4)-->
+
+Is dard-e-dil ki sifaarish
+
+Ab kar de koi yahaan
+
+Ki mill jaaye isey woh baarish
+
+Jo bhiga de poori tarah (x4)-->
     </string>
 
     <string name="song_6">
         Aaj blue hai paani
-
+        <!--
         Paani pani paani paani paani
 
         Aur din bhi sunny
@@ -363,82 +364,82 @@ Yaariyan ve... Yaariyan...
 
         O ho... O ho...
 
-        <!--
-                Sunset ka time ho
 
-                Thandi-thandi ret ho
+        Sunset ka time ho
 
-                Let s go to party yaara
+        Thandi-thandi ret ho
 
-                Mujhse na ab wait ho
+        Let s go to party yaara
 
-                Music chala do
+        Mujhse na ab wait ho
 
-                Shuru karo party ho gayi der
+        Music chala do
 
-                Bottle pila do mujhko
+        Shuru karo party ho gayi der
 
-                Bas phir yaara, i don t care
+        Bottle pila do mujhko
 
-
-                Aaj blue hai paani
-
-                Paani pani paani paani paani
-
-                Aur din bhi sunny
-
-                Sunny sunny sunny sunny sunny
-
-                Aajaao on the beach yaar
-
-                Photo meri kheench
-
-                Phooti kismat hogi teri
-
-                Agar tune ye baat na maani (x2)
+        Bas phir yaara, i don t care
 
 
-                O ho... O ho...
+        Aaj blue hai paani
+
+        Paani pani paani paani paani
+
+        Aur din bhi sunny
+
+        Sunny sunny sunny sunny sunny
+
+        Aajaao on the beach yaar
+
+        Photo meri kheench
+
+        Phooti kismat hogi teri
+
+        Agar tune ye baat na maani (x2)
 
 
-                Ehe he he..
-
-                Tera pyaar.. that's all i need
-
-                O mere yaar!
+        O ho... O ho...
 
 
-                Ek tu ho, main hoon
+        Ehe he he..
 
-                Aur sea-side pe paani ka shor
+        Tera pyaar.. that's all i need
 
-                Aaja meri baahon me Girl what you waiting for
-
-                Tujhko me leke chalun phir pyari si yacht pe
-
-                Ho jaayenge hum talli Malibu ke shot pe
+        O mere yaar!
 
 
-                Aaj blue hai paani
+        Ek tu ho, main hoon
 
-                Paani pani paani paani paani
+        Aur sea-side pe paani ka shor
 
-                Aur din bhi sunny
+        Aaja meri baahon me Girl what you waiting for
 
-                Sunny sunny sunny sunny sunny
+        Tujhko me leke chalun phir pyari si yacht pe
 
-                Aajaao on the beach yaar
-
-                Photo meri kheench phooti kismat hogi teri
-
-                Gar tune ye baat na maani (x2)
+        Ho jaayenge hum talli Malibu ke shot pe
 
 
-                o ho.. o ho... -->
+        Aaj blue hai paani
+
+        Paani pani paani paani paani
+
+        Aur din bhi sunny
+
+        Sunny sunny sunny sunny sunny
+
+        Aajaao on the beach yaar
+
+        Photo meri kheench phooti kismat hogi teri
+
+        Gar tune ye baat na maani (x2)
+
+
+        o ho.. o ho... -->
     </string>
 
-    <string name="song_7">
-
+    <string name="song_7">Hmmm.
+        <!--
         Hmm...
 
 Bekhayali mein bhi tera hi khayal aaye
@@ -470,76 +471,76 @@ Kyun judaai de gaya tu ye sawaal aaye
 Thoda sa main khafa ho gaya apne aap se
 
 Thoda sa tujhpe bhi bewajah hi malaal aaye
-        <!--
-
-        Hai ye tadpan, hai ye uljhan
-
-        Kaise jee loon bina tere
-
-        Meri ab sab se hai ann ban
-
-        Bante kyun ye Khuda mere
 
 
-        Hmm...
+Hai ye tadpan, hai ye uljhan
+
+Kaise jee loon bina tere
+
+Meri ab sab se hai ann ban
+
+Bante kyun ye Khuda mere
 
 
-        Ye jo log baag hain
-
-        Jungle ki aag hain
-
-        Kyun aag mein jalun
-
-        Ye nakaam pyaar mein
-
-        Khush hai yeh haar mein
-
-        Inn jaisa kyun banun
+Hmm...
 
 
-        Raatein dengi bata
+Ye jo log baag hain
 
-        Neendon mein teri hi baat hai
+Jungle ki aag hain
 
-        Bhoolun kaise tujhe
+Kyun aag mein jalun
 
-        Tu toh khayalon mein saath hai
+Ye nakaam pyaar mein
 
+Khush hai yeh haar mein
 
-        Bekhayali mein bhi tera hi khayal aaye
-
-        Kyun bichhadna hai zaroori ye sawaal aaye
-
-
-        Nazar gira de har ik manzar
-
-        Ret ki tarah bikhar raha hai
-
-        Dard tumhara badan mein mere
-
-        Zeher ki tarah utar raha hai
+Inn jaisa kyun banun
 
 
-        Nazar gira de har ik manzar
+Raatein dengi bata
 
-        Ret ki tarah bikhar raha hai
+Neendon mein teri hi baat hai
 
-        Dard tumhara badan mein mere
+Bhoolun kaise tujhe
 
-        Zeher ki tarah utar raha hai
+Tu toh khayalon mein saath hai
 
 
-        Aa zamaane aazma le roothta nahi
+Bekhayali mein bhi tera hi khayal aaye
 
-        Faaslon se hosla ye tootta nahi
+Kyun bichhadna hai zaroori ye sawaal aaye
 
-        Naa hai woh bewafa, aur na main hoon bewafa
 
-        Woh meri aadaton ki tarah chhootta nahi -->
+Nazar gira de har ik manzar
+
+Ret ki tarah bikhar raha hai
+
+Dard tumhara badan mein mere
+
+Zeher ki tarah utar raha hai
+
+
+Nazar gira de har ik manzar
+
+Ret ki tarah bikhar raha hai
+
+Dard tumhara badan mein mere
+
+Zeher ki tarah utar raha hai
+
+
+Aa zamaane aazma le roothta nahi
+
+Faaslon se hosla ye tootta nahi
+
+Naa hai woh bewafa, aur na main hoon bewafa
+
+Woh meri aadaton ki tarah chhootta nahi -->
     </string>
 
-    <string name="song_8">
-        Meri raahein tere tak hai
+    <string name="song_8">Meri raahein tere tak hai
+        <!--
 
 Tujhpe hi toh mera haq hai
 
@@ -574,55 +575,55 @@ Na na na.. na na na...
 
 Na na na.. o yeh... (x2)
 
-        <!--
-        Lakhaan ton juda main hui tere khaatir
 
-        Tu hi manzil dil tera musaafir
+Lakhaan ton juda main hui tere khaatir
 
-        Lakhaan ton juda main hoya teri khaatir
+Tu hi manzil dil tera musaafir
 
-        Tu hi manzil main tera musaafir
+Lakhaan ton juda main hoya teri khaatir
 
-        Rab nu bhula baitha tere karke
+Tu hi manzil main tera musaafir
 
-        Main ho gaya kaafir
+Rab nu bhula baitha tere karke
 
-
-        Tere liye main jahaan se takraunga
-
-        Sab kuch khoke tujhko hi paunga
-
-        Dil ban ke main dil dhadkaunga
-
-        Main tera ban jaaunga
-
-        Main tera ban jaaunga
+Main ho gaya kaafir
 
 
-        Sonh teri main kasam yahi khaunga
+Tere liye main jahaan se takraunga
 
-        Kite waadeya nu umra nibhaunga
+Sab kuch khoke tujhko hi paunga
 
-        Tujhe har vaari apna banaunga
+Dil ban ke main dil dhadkaunga
 
-        Main tera ban jaunga
+Main tera ban jaaunga
 
-        Main tera ban jaunga
+Main tera ban jaaunga
 
 
-        Meri raahein tere tak hai
+Sonh teri main kasam yahi khaunga
 
-        Tujhpe hi toh mera haq hai
+Kite waadeya nu umra nibhaunga
 
-        Ishq mera tu beshak hai
+Tujhe har vaari apna banaunga
 
-        Tujhpe hi toh mera haq hai -->
+Main tera ban jaunga
+
+Main tera ban jaunga
+
+
+Meri raahein tere tak hai
+
+Tujhpe hi toh mera haq hai
+
+Ishq mera tu beshak hai
+
+Tujhpe hi toh mera haq hai -->
     </string>
 
     <string name="song_9">
 
-
-
+        kyu
+        <!--
                 Ha....haaaa...haaann..
 
                 Haa...haaa...haaaa...
@@ -658,80 +659,80 @@ Na na na.. o yeh... (x2)
                 Tera hoona mera hona kya hona,
 
                 Agar na dono mile..
-        <!--
-
-                        Tu pehla pehla pyaar hai mera,
-
-                        Tu pehla pehla pyaar hai mera,
-
-                        Tu pehla pehla pyaar hai mera,
-
-                        Tu pehla pehla pyaar hai mera..
 
 
-                        Ha....haaaa...haaann..
+                Tu pehla pehla pyaar hai mera,
+
+                Tu pehla pehla pyaar hai mera,
+
+                Tu pehla pehla pyaar hai mera,
+
+                Tu pehla pehla pyaar hai mera..
 
 
-                        Wo sehar bade honge boriyat bhare,
-
-                        Rehta nahi jinme tu sang mere,
-
-                        Khabar tujhe bhi hai ye..
+                Ha....haaaa...haaann..
 
 
-                        Raunake sabhi hoti,
+                Wo sehar bade honge boriyat bhare,
 
-                        Tere hoone se,
+                Rehta nahi jinme tu sang mere,
 
-                        Tere bina tanha koi kya kare..
-
-
-                        Aise sabhi sehron pe mujhko,
-
-                        Tarash hai aata bada,
-
-                        Tere liye main na jahaan khada..
+                Khabar tujhe bhi hai ye..
 
 
-                        Miloon ka ho saalon ka ho,
+                Raunake sabhi hoti,
 
-                        Chahhe wo,
+                Tere hoone se,
 
-                        Safar ki parwaah nahi,
-
-                        Tu hai jaha main bhi waha hona hai,
-
-                        Pahuch hai jaana wahi..
+                Tere bina tanha koi kya kare..
 
 
-                        Tu pehla pehla pyaar hai mera,
+                Aise sabhi sehron pe mujhko,
 
-                        Tu pehla pehla pyaar hai mera,
+                Tarash hai aata bada,
 
-                        Tu pehla pehla pyaar hai mera,
+                Tere liye main na jahaan khada..
 
-                        Tu pehla pehla pyaar hai mera..
 
-                        Jeete jee to jeetega na,
+                Miloon ka ho saalon ka ho,
 
-                        Fasla hai pata,
+                Chahhe wo,
 
-                        Shashein chale teri taraf,
+                Safar ki parwaah nahi,
 
-                        Jaise chale rashta,
+                Tu hai jaha main bhi waha hona hai,
 
-                        Mera hai tu,
+                Pahuch hai jaana wahi..
 
-                        Tu hai khalish,ya hai khushi,
 
-                        Ya khata,
+                Tu pehla pehla pyaar hai mera,
 
-                        Tere shiva mera jahaan se na koi vaastaa.. -->
+                Tu pehla pehla pyaar hai mera,
+
+                Tu pehla pehla pyaar hai mera,
+
+                Tu pehla pehla pyaar hai mera..
+
+                Jeete jee to jeetega na,
+
+                Fasla hai pata,
+
+                Shashein chale teri taraf,
+
+                Jaise chale rashta,
+
+                Mera hai tu,
+
+                Tu hai khalish,ya hai khushi,
+
+                Ya khata,
+
+                Tere shiva mera jahaan se na koi vaastaa.. -->
     </string>
 
     <string name="song_10">
         Hansta rehta hoon
-
+        <!--
         Tujhse mil kar kyu aajkal
 
 
@@ -747,50 +748,51 @@ Na na na.. o yeh... (x2)
 
         Koi aur hai meri tarah...
 
+
         Kaise hua, kaise hua
 
         Tu itna zaroori, kaise hua (x2)
 
-        <!--
-                Main baarish ki boli samajhta nahi tha
 
-                Hawaaon se main yun ulajhta nahi tha
+        Main baarish ki boli samajhta nahi tha
 
-                Hai seene mein dil bhi
+        Hawaaon se main yun ulajhta nahi tha
 
-                Kahan thi mujhe ye khabar
+        Hai seene mein dil bhi
 
-
-                Kahin pe ho raatein
-
-                Kahin pe savere
-
-                Awargi hi rahi saath mere
-
-                Thehar ja, thehar ja
-
-                Ye kehti hai teri nazar
+        Kahan thi mujhe ye khabar
 
 
-                Kya haal ho gaya hai yeh mera
+        Kahin pe ho raatein
 
-                Aankhein meri har jagah
+        Kahin pe savere
 
-                Dhoondhe tujhe bewajah
+        Awargi hi rahi saath mere
 
-                Ye main hoon ya
+        Thehar ja, thehar ja
 
-                Koi aur hai meri tarah
+        Ye kehti hai teri nazar
 
 
-                Kaise hua, kaise hua
+        Kya haal ho gaya hai yeh mera
 
-                Tu itna zaroori, kaise hua (x3)  -->
+        Aankhein meri har jagah
+
+        Dhoondhe tujhe bewajah
+
+        Ye main hoon ya
+
+        Koi aur hai meri tarah
+
+
+        Kaise hua, kaise hua
+
+        Tu itna zaroori, kaise hua (x3)  -->
     </string>
 
     <string name="song_11">
         Tu aata hai seene mein
-
+        <!--
         Jab jab saansein bharti hoon
 
         Tere dil ki galiyon se
@@ -806,69 +808,69 @@ Na na na.. o yeh... (x2)
 
         Jaise main karti hoon
 
-        <!--
-                Ho ho....
+
+        Ho ho....
 
 
-                Meri nazar ka safar
+        Meri nazar ka safar
 
-                Tujhpe hi aake ruke
+        Tujhpe hi aake ruke
 
-                Kehne ko baaqi hai kya
+        Kehne ko baaqi hai kya
 
-                Kehna tha jo keh chuke
-
-
-                Meri nigaahein hain
-
-                Teri nigahon pe
-
-                Tujhe khabar kya be-khabar
+        Kehna tha jo keh chuke
 
 
-                Main tujhse hi Chhup chhup kar
+        Meri nigaahein hain
 
-                Teri aankhen padhti hoon
+        Teri nigahon pe
 
-                Kaun tujhe yun pyaar karega
-
-                Jaise main karti hoon
+        Tujhe khabar kya be-khabar
 
 
-                Ho ho....
+        Main tujhse hi Chhup chhup kar
+
+        Teri aankhen padhti hoon
+
+        Kaun tujhe yun pyaar karega
+
+        Jaise main karti hoon
 
 
-                Tu jo mujhe aa mila
-
-                Sapne hue sirphire
-
-                Hathon mein aate nahi
-
-                Udte hain lamhe mere
+        Ho ho....
 
 
-                Meri hansi tujhse
+        Tu jo mujhe aa mila
 
-                Meri khushi tujhse
+        Sapne hue sirphire
 
-                Tujhe khabar kya be-qadar
+        Hathon mein aate nahi
 
-
-                Jis din tujhko na dekhun
-
-                Pagal pagal phirti hoon
-
-                Kaun tujhe yun pyaar karega
-
-                Jaise main karti hoon
+        Udte hain lamhe mere
 
 
-                Ho ho....  -->
+        Meri hansi tujhse
+
+        Meri khushi tujhse
+
+        Tujhe khabar kya be-qadar
+
+
+        Jis din tujhko na dekhun
+
+        Pagal pagal phirti hoon
+
+        Kaun tujhe yun pyaar karega
+
+        Jaise main karti hoon
+
+
+        Ho ho....  -->
     </string>
 
     <string name="song_12">
         We are The Sounds Of The Street!
-
+        <!--
         Aya Hun Aaj Main,
 
         Leke Jaunga Dil Tera,
@@ -883,7 +885,7 @@ Na na na.. o yeh... (x2)
 
         Muqabla Subhanallah Laila, Oh Ho Laila.
 
-<!--
+
         Main Huwa Tera Majnu,
 
         Tu Ban Ja Meri Laila,
@@ -919,6 +921,10 @@ Na na na.. o yeh... (x2)
     <string name="lyrics">Lyrics</string>
     <string name="song_description">Song Description</string>
     <string name="song_name">Song Name</string>
+    <string name="lyrics_of_song">Lyrics of Song</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="description">Description</string>
+    <string name="textview">TextView</string>
     <string name="home">Home</string>
     <string name="message">Message</string>
     <string name="sync">Sync</string>
@@ -930,9 +936,13 @@ Na na na.. o yeh... (x2)
     <string name="share">Share</string>
     <string name="rate_us">Rate us</string>
     <string name="textview">TextView</string>
+    <string name="textview">TextView</string>
+    <string name="login">Login</string>
+    <string name="message">Message</string>
+    <string name="settings">Settings</string>
+    <string name="trash">Trash</string>
     <string name="ironman">Ironman</string>
     <string name="hello_jarvis">Hello JARVIS</string>
-
 
 </resources>
 
