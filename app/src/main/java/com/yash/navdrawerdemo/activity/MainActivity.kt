@@ -10,6 +10,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.google.android.material.navigation.NavigationView
 import com.yash.navdrawerdemo.R
+import com.yash.navdrawerdemo.adapter.HomeAdapter
 import com.yash.navdrawerdemo.fragment.*
 
 class MainActivity : AppCompatActivity() {
@@ -30,11 +31,14 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+
+
         replaceFragment(HomeFragment(), "Home")  // Default the HomeFragment call
 
         navView.setNavigationItemSelectedListener {
 
             it.isChecked = true
+
 
             when(it.itemId){
 
