@@ -63,7 +63,7 @@ class HomeFragment : Fragment() {
         adapter.setOnItemClickListener(object : HomeAdapter.onItemClikListener{
             override fun onItemClick(position: Int) {
 
-                //Toast.makeText(activity,"Clicked $position",Toast.LENGTH_SHORT).show()
+                Toast.makeText(activity,"Clicked $position",Toast.LENGTH_SHORT).show()
 
                 val intent = Intent(activity,DescriptionActivity::class.java)
                 intent.putExtra("title",songsObjects[position].title)
@@ -74,30 +74,6 @@ class HomeFragment : Fragment() {
 
         })
         recyclerview.layoutManager = LinearLayoutManager(activity)
-        
-
-        //lyrics = arrayListOf<Lyrics>()
-        /*
-        recyclerview.setOnClickListener(object : HomeAdapter.onItemClikListener ,
-            View.OnClickListener{
-            override fun onItemClick(position: Int) {
-
-                val intent = Intent(activity,DescriptionActivity::class.java)
-                intent.putExtra("Title", mutableListOf<Song>()[position].title)
-                intent.putExtra("Description", mutableListOf<Song>()[position].description)
-                intent.putExtra("Lyrics",lyricsArray[position])
-
-                startActivity(intent)
-                //Toast.makeText(activity,"clicked $position",Toast.LENGTH_SHORT).show()
-            }
-
-            override fun onClick(v: View?) {
-                val intent = Intent(activity,DescriptionActivity::class.java)
-                startActivity(intent)
-            }
-        } )
-
-        */
 
 
         return inflater.inflate(R.layout.fragment_home, container, false)
